@@ -1,19 +1,19 @@
-# **PLC Voltage-Controlled Relay System**  
+**PLC Voltage-Controlled Relay System**  
 
-## **Project Overview**  
+**Project Overview**  
 A **Siemens LOGO! PLC**-based automation system that activates **24V relays** when analog voltage inputs (0-10V) exceed **2V threshold**, with 1:1 input-to-output mapping.
 
-### **Repository Structure**  
+**Repository Structure**  
+```
 /plc-voltage-relay-control/
 │── /Software/
 │   └── Siemens_LOGO_Software_Download.txt  # Contains download link for LOGO! Soft Comfort
-│── /Schematic/
-│   └── Wiring_diagram.jpg  # Contains wiring diagram of the ladder logic
 │── /Program/
 │   └── Voltage_Relay_Logic.lsc            # Complete ladder logic program
 │── README.md                              # This documentation file
+```
 
-## **Key Features**  
+**Key Features**  
 **3-Channel Voltage Monitoring** (0-10V range)  
 **Threshold-Based Control** (2V activation point)  
 **Direct I/O Mapping** (Input 1 → Relay 1, etc.)  
@@ -30,6 +30,7 @@ A **Siemens LOGO! PLC**-based automation system that activates **24V relays** wh
    - Transfer program to PLC  
 
 3. **Hardware Connections**  
+   ```
    Analog Inputs (0-10V):
    - AI1 → Voltage Source 1
    - AI2 → Voltage Source 2  
@@ -39,6 +40,7 @@ A **Siemens LOGO! PLC**-based automation system that activates **24V relays** wh
    - Q1 → Relay 1 Load
    - Q2 → Relay 2 Load
    - Q3 → Relay 3 Load
+   ```
 
 ## **Technical Specifications**  
 | Parameter        | Value              |
@@ -51,6 +53,7 @@ A **Siemens LOGO! PLC**-based automation system that activates **24V relays** wh
 ## **Resume One-Liner**  
 **Industrial Relay Control System (Siemens LOGO! PLC)** - Developed ladder logic program for voltage-controlled relay activation with 2V threshold detection and 3-channel independent control.
 
+---
 
 ### **Notes**:
 1. The `/Software/` folder contains a text file with the official Siemens download link
