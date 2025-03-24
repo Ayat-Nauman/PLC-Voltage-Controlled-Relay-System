@@ -19,7 +19,7 @@ A **Siemens LOGO! PLC**-based automation system that activates **24V relays** wh
 **Direct I/O Mapping** (Input 1 → Relay 1, etc.)  
 **Industrial-Grade Solution** using Siemens LOGO! PLC  
 
-## **Setup Instructions**  
+**Setup Instructions**  
 1. **Software Installation**  
    - Download LOGO! Soft Comfort from link in `/Software/` folder  
    - Install on Windows PC  
@@ -42,7 +42,7 @@ A **Siemens LOGO! PLC**-based automation system that activates **24V relays** wh
    - Q3 → Relay 3 Load
    ```
 
-## **Technical Specifications**  
+**Technical Specifications**  
 | Parameter        | Value              |
 |------------------|--------------------|
 | Input Voltage    | 0-10V DC           |
@@ -50,12 +50,12 @@ A **Siemens LOGO! PLC**-based automation system that activates **24V relays** wh
 | Control Logic    | Ladder Diagram     |
 | PLC Model        | Siemens LOGO!      |
 
-## **Resume One-Liner**  
+**Resume One-Liner**  
 **Industrial Relay Control System (Siemens LOGO! PLC)** - Developed ladder logic program for voltage-controlled relay activation with 2V threshold detection and 3-channel independent control.
 
 ---
 
-### **Notes**:
+**Notes**:
 1. The `/Software/` folder contains a text file with the official Siemens download link
 2. The ladder logic file uses the `.lsc` extension standard for LOGO! Soft Comfort
 3. No external dependencies required beyond the Siemens software
