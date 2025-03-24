@@ -1,6 +1,4 @@
-Here's the refined **GitHub README** with your requested repository structure changes:
-
-# **GitHub README for PLC Voltage-Controlled Relay System**  
+# **PLC Voltage-Controlled Relay System**  
 
 ## **Project Overview**  
 A **Siemens LOGO! PLC**-based automation system that activates **24V relays** when analog voltage inputs (0-10V) exceed **2V threshold**, with 1:1 input-to-output mapping.
