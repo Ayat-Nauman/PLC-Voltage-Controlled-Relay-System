@@ -1,6 +1,4 @@
 **PLC Voltage-Controlled Relay System**  
-
-**Project Overview**  
 A **Siemens LOGO! PLC**-based automation system that activates **24V relays** when analog voltage inputs (0-10V) exceed **2V threshold**, with 1:1 input-to-output mapping.
 
 **Repository Structure**  
@@ -8,6 +6,8 @@ A **Siemens LOGO! PLC**-based automation system that activates **24V relays** wh
 /plc-voltage-relay-control/
 │── /Software/
 │   └── Siemens_LOGO_Software_Download.txt  # Contains download link for LOGO! Soft Comfort
+│── /Schematic/
+│   └── Wiring_Diagram.jpg  # Contains wiring diagram
 │── /Program/
 │   └── Voltage_Relay_Logic.lsc            # Complete ladder logic program
 │── README.md                              # This documentation file
