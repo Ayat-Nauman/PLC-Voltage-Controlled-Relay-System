@@ -50,9 +50,6 @@ A **Siemens LOGO! PLC**-based automation system that activates **24V relays** wh
 | Control Logic    | Ladder Diagram     |
 | PLC Model        | Siemens LOGO!      |
 
-**Resume One-Liner**  
-**Industrial Relay Control System (Siemens LOGO! PLC)** - Developed ladder logic program for voltage-controlled relay activation with 2V threshold detection and 3-channel independent control.
-
 ---
 
 **Notes**:
